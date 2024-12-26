@@ -6,6 +6,7 @@
     <title>GitSearch - Search github profile</title>
     <!-- link external stylesheet file -->
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
     <!-- link icons file -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
@@ -13,14 +14,23 @@
     <nav class="navbar">
         <div class="logo"><span>Git</span>Search</div>
         <ul>
-            <li><a class="fa-brands fa-github" href="#"></a></li>
+            <li><a class="fa-brands fa-github" href="https://github.com/prikshitjs" title="Github"></a></li>
+            <li><a class="fa-brands fa-instagram" href="https://instagram.com/prikshit.js" title="Instagram"></a></li>
+            <li><a class="fa-brands fa-youtube" href="https://youtube.com/@prikshitjs" title="Youtube"></a></li>
         </ul>
     </nav>
     <main>
         <div class="container">
-            <input type="text">
-            <button class="fa-solid fa-search"></button>
+            <input id="searchbox" type="text" placeholder="Search profile" autocomplete="off">
+            <button id="searchbtn" class="fa-solid fa-search"></button>
         </div>
     </main>
+    <footer>
+        <div class="credit">
+            design and develope by <a href="https://prikshitjs.github.io/prikshit.js/">Prikshit</a>
+        </div>
+        <img class="gitcat" src="assets/gitcat.png" alt="">
+    </footer>
+    <script src="app.js"></script>
 </body>
 </html>
